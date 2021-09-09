@@ -1,11 +1,19 @@
 {
-  "name": "cv-portfolio",
+  "name": "cv-erez-vaknin",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ErezVaknin/cv-erez-vaknin.git"
+  },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "bugs": {
+    "url": "https://github.com/ErezVaknin/cv-erez-vaknin/issues"
+  },
+  "homepage": "https://github.com/ErezVaknin/cv-erez-vaknin#readme"
 }

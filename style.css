@@ -2,10 +2,200 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
+  font-weight: 200;
+  color: rgb(88, 88, 88);
 }
 
-.header-container {
+.main-container {
+  padding: 0 300px;
+}
+
+.profile-image {
+  margin-bottom: 40px;
+  margin-top: -30px;
+}
+
+.profile-image:hover {
+  background-image: url(./img/Profile-pic-b&w.png);
+  background-repeat: no-repeat;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+
+.content-container {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
+.personal {
+  padding: 100px 80px;
+  box-shadow: rgb(149 157 165 / 12%) 15px 30px 20px;
+}
+
+.personal-info {
+  padding-left: 30px;
+  line-height: 24px;
+}
+
+.details {
+  width: 650px;
+  padding: 100px;
+  margin-top: -750px;
+}
+
+.typo-bg {
+  opacity: 60%;
+  margin-top: 0;
+  margin-left: 700px;
+}
+
+.line-break {
+  width: 450px;
+  height: 1px;
+  background-color: rgb(233, 233, 233);
+}
+
+.line-break-small {
+  width: 350px;
+  height: 1px;
+  background-color: rgb(233, 233, 233);
+}
+
+.pink-letters {
+  color: #c12259;
+  font-family: "adobe";
+  font-size: 150px;
+  margin-left: -25px;
+}
+
+h1 {
+  font-family: "Phosphate-solid", sans-serif;
+  font-size: 55px;
+  color: rgb(65, 59, 59);
+}
+
+h2 {
+  font-family: sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: rgb(48, 46, 46);
+  margin: 10px 0;
+}
+
+h4 {
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 900;
+  color: rgb(48, 46, 46);
+}
+
+::selection {
+  color: #fff;
+  background: #6665ee;
+}
+.skill-bars {
+  margin-top: -30px;
+  margin-left: -25px;
+  padding: 15px 30px;
+  width: 400px;
+  /* background: #fff;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 10px; */
+}
+.skill-bars .bar {
+  margin: 20px 0;
+}
+.skill-bars .bar:first-child {
+  margin-top: 0px;
+}
+.skill-bars .bar .info {
+  margin-bottom: 5px;
+}
+.skill-bars .bar .info span {
+  font-weight: 500;
+  font-size: 17px;
+  opacity: 0;
+  animation: showText 0.5s 1s linear forwards;
+}
+@keyframes showText {
+  100% {
+    opacity: 1;
+  }
+}
+.skill-bars .bar .progress-line {
+  height: 5px;
+  width: 100%;
+  background: #f0f0f0;
+  position: relative;
+  transform: scaleX(0);
+  transform-origin: left;
+  border-radius: 10px;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05),
+    0 1px rgba(255, 255, 255, 0.8);
+  animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+@keyframes animate {
+  100% {
+    transform: scaleX(1);
+  }
+}
+.bar .progress-line span {
+  height: 100%;
+  position: absolute;
+  border-radius: 10px;
+  transform: scaleX(0);
+  transform-origin: left;
+  background: #c12259;
+  animation: animate 1s 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+.bar .progress-line.html span {
+  width: 90%;
+}
+.bar .progress-line.css span {
+  width: 80%;
+}
+.bar .progress-line.jquery span {
+  width: 60%;
+}
+.bar .progress-line.python span {
+  width: 95%;
+}
+.bar .progress-line.mysql span {
+  width: 95%;
+}
+
+.progress-line span::after {
+  position: absolute;
+  top: -28px;
+  right: 0;
+  font-weight: 500;
+  background: #000;
+  color: #fff;
+  padding: 1px 8px;
+  font-size: 12px;
+  border-radius: 3px;
+  opacity: 0;
+  animation: showText2 0.5s 1.5s linear forwards;
+}
+@keyframes showText2 {
+  100% {
+    opacity: 1;
+  }
+}
+/* .progress-line.html span::after {
+  content: "90%";
+}
+.progress-line.css span::after {
+  content: "60%";
+}
+.progress-line.jquery span::after {
+  content: "85%";
+}
+.progress-line.python span::after {
+  content: "50%";
+}
+.progress-line.mysql span::after {
+  content: "75%";
+} */
