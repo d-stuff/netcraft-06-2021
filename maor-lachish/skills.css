@@ -19,18 +19,20 @@ ul.lang {
 
 .bar {
     position: relative;
+    margin: 10px 0;
+    padding: 1px;
     background-color: rgba(33, 150, 243, 0.2);
     display: block;
-    height: 5px;
+    height: 10px;
     border: 1px solid rgba(0, 0, 0, 0.2);
-    border-radius: 3px;
+    border-radius: 5px;
     overflow: hidden;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
 .bar span {
     position: absolute;
-    height: 4px;
+    height: 6px;
     background-color: #2196f3;
     border-radius: 3px;
     animation: animate 2s ease-in-out forwards;
@@ -45,7 +47,7 @@ ul.lang {
 }
 
 .js {
-    width: 60%;
+    width: 50%;
 }
 
 .eng {
@@ -53,7 +55,7 @@ ul.lang {
 }
 
 .heb {
-    width: 100%;
+    width: 99%;
 }
 
 .esp {
