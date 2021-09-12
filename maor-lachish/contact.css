@@ -1,0 +1,24 @@
+.social {
+    display: flex;
+    width: 70vw;
+    height: 70vh;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    font-size: 10rem;
+}
+
+.social a {
+    text-decoration: none;
+    color: #3d6383;
+}
+
+.social a i {
+    cursor: pointer;
+    transition: 1s;
+}
+
+.social a i:hover {
+    transition: 0s;
+    color: #2196f3;
+}

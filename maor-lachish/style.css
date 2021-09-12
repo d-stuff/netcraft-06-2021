@@ -1,0 +1,15 @@
+@import "./nav.css";
+@import "./section.css";
+@import "./education-card.css";
+@import "./experience.css";
+@import "./contact.css";
+@import "./skills.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+

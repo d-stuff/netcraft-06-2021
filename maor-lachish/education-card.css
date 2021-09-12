@@ -1,0 +1,65 @@
+.ed-cards {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70vw;
+    height: 70vh;
+}
+
+.card {
+    position: relative;
+    max-width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 1px solid #2196f3;
+    box-shadow: 5px 5px 15px 5px black;
+    border-radius: 15px;
+    background-color: transparent;
+    color: #3d6383;
+    font-size: 20px;
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+.card:hover {
+    height: 350px;
+    color: #813232;
+    border: 1px solid #813232;
+    box-shadow: inset 5px 5px 15px 5px black;
+}
+
+.card i {
+    font-size: 60px;
+}
+
+.card .ed-face {
+    position: relative;
+    width: 170px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+
+.card .ed-content {
+    position: relative;
+    margin-top: -140px;
+    padding: 10px 15px;
+    text-align: center;
+    color: #111;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.card:hover .ed-content {
+    visibility: visible;
+    opacity: 1;
+    margin-top: -40px;
+    color: #813232;
+}
