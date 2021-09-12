@@ -1,4 +1,5 @@
 .exp {
+    position: relative;
     display: flex;
     width: 70vw;
     height: 70vh;
@@ -10,27 +11,43 @@
 .exp li {
     font-size: 20px;
     position: relative;
+    transition: 0.5s ease-in-out;
+}
+
+.exp li:hover {
+    font-size: 40px;
 }
 
 .exp li::before {
     position: absolute;
     left: -30px;
+    top: 0;
     content: "";
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background-color: transparent;
+    background-color:transparent;
     box-shadow: 1px 1px 1px 1px black;
-    transition: 0s;
+    transition: all 0.5s ease-in-out;
 }
 
-.exp li.current::after {
+.exp li:hover::before {
+    width: 30px;
+    height: 30px;
+    left: -40px;
+    top: 5px;
+}
+
+.exp::after {
     content: "";
     position: absolute;
-    top: 9px;
-    right: 20px;
-    width: 50vw;
-    height: 3px;
-    background-color: black;
+    bottom: 160px;
+    left: 140px;
+    width: 47vw;
+    height: 7px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #2196f3;
+    box-shadow: inset 1px 1px 1px black;
 }
 
