@@ -18,7 +18,7 @@
     box-shadow: 5px 5px 15px 5px black;
     border-radius: 15px;
     background-color: transparent;
-    color: #3d6383;
+    color: black;
     font-size: 20px;
     transition: 0.4s ease-in-out;
     cursor: pointer;
@@ -26,8 +26,7 @@
 
 .card:hover {
     height: 350px;
-    color: #813232;
-    border: 1px solid #813232;
+    color: #3d6383;
     box-shadow: inset 5px 5px 15px 5px black;
 }
 
@@ -51,7 +50,7 @@
     margin-top: -140px;
     padding: 10px 15px;
     text-align: center;
-    color: #111;
+    color: #3d6383;
     visibility: hidden;
     opacity: 0;
     transition: 0.3s ease-in-out;
@@ -61,5 +60,4 @@
     visibility: visible;
     opacity: 1;
     margin-top: -40px;
-    color: #813232;
 }

@@ -2,8 +2,9 @@
 @import "./section.css";
 @import "./education-card.css";
 @import "./experience.css";
-@import "./contact.css";
 @import "./skills.css";
+@import "./interest.css";
+@import "./contact.css";
 
 * {
     margin: 0;
