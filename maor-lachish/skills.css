@@ -1,0 +1,67 @@
+#skills ul {
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    list-style: none;
+}
+
+ul.skill {
+    height: 40vh;
+    margin-bottom: 10vh;
+    font-size: 20px;
+}
+
+ul.lang {
+    font-size: 16px;
+    height: 20vh;
+}
+
+.bar {
+    position: relative;
+    background-color: rgba(33, 150, 243, 0.2);
+    display: block;
+    height: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.bar span {
+    position: absolute;
+    height: 4px;
+    background-color: #2196f3;
+    border-radius: 3px;
+    animation: animate 2s ease-in-out forwards;
+}
+
+.html {
+    width: 90%;
+}
+
+.css {
+    width: 80%;
+}
+
+.js {
+    width: 60%;
+}
+
+.eng {
+    width: 90%;
+}
+
+.heb {
+    width: 100%;
+}
+
+.esp {
+    width: 10%;
+}
+
+@keyframes animate {
+    from {
+        width: 0;
+    }
+}

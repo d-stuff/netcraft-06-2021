@@ -5,8 +5,100 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
+    <link rel="stylesheet" href="style.css" defer>
+    <script src="https://kit.fontawesome.com/e9dadc57c1.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    
+    <div class="nav">
+        <div class="toggle"><span></span></div>
+        <ul>
+            <li><a href="#profile">Profile</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#interest">Interest</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+    <section id="profile">
+        <h2>Profile</h2>
+        <div class="content">
+            <h3>Maor Lachish</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non accusamus alias vel, eum nulla minus officiis maxime nemo illum similique maiores perferendis quis animi ipsam id distinctio sapiente, earum recusandae.
+            Autem dicta corporis deleniti dolores est, incidunt, illo maxime voluptatum recusandae illum itaque obcaecati modi nihil facilis? Velit quas delectus dignissimos perspiciatis sit, deleniti corporis sunt beatae aut natus temporibus.
+            Odit, voluptas! Exercitationem accusantium accusamus beatae itaque asperiores! Illum non quam facilis fugit ex ut, ducimus ipsa minus facere quibusdam doloribus libero illo cumque qui explicabo aperiam omnis amet. Dolore.
+            Illum rerum officiis architecto, repellendus eligendi aspernatur minus odit sequi totam voluptatibus commodi beatae numquam facilis! Earum nam, laboriosam, ipsam architecto provident temporibus at porro non pariatur, repellat quas! Quidem!</p>
+        </div>
+    </section>
+    <section id="education">
+        <h2>Education</h2>
+        <div class="ed-cards">
+            <div class="card">
+                <div class="ed-face">
+                    <i class="fas fa-graduation-cap"></i>
+                    School Diploma
+                </div>
+                <div class="ed-content">
+                    Lorem ipsum dolor sit amet consectetur
+                </div>
+            </div>
+            <div class="card">
+                <div class="ed-face">
+                    <i class="fas fa-music"></i>
+                    Music School
+                </div>
+                <div class="ed-content">
+                    Lorem ipsum dolor sit amet consectetur
+                </div>
+            </div>
+            <div class="card">
+                <div class="ed-face">
+                    <i class="fas fa-code"></i>
+                    Netcraft
+                </div>
+                <div class="ed-content">
+                    Lorem ipsum dolor sit amet consectetur
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="experience">
+        <h2>Experience</h2>
+        <ul class="exp">
+            <li>2016 - 2017</li>
+            <li>2017 - 2018</li>
+            <li class="current">2019 - Now</li>
+        </ul>
+    </section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul class="skill">
+            <li><h3>HTML</h3><span class="bar"><span class="html"></span></span></li>
+            <li><h3>CSS</h3><span class="bar"><span class="css"></span></span></li>
+            <li><h3>JavaScript</h3><span class="bar"><span class="js"></span></span></li>
+        </ul>
+        <ul class="lang">
+            <li><h3>English</h3><span class="bar"><span class="eng"></span></span></li>
+            <li><h3>Hebrew</h3><span class="bar"><span class="heb"></span></span></li>
+            <li><h3>Spanish</h3><span class="bar"><span class="esp"></span></span></li>
+        </ul>
+    </section>
+    <section id="interest"><h2>Interest</h2></section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <div class="social">
+            <a href=""><i class="fab fa-linkedin"></i></a>
+            <a href=""><i class="fab fa-twitter"></i></a>
+            <a href=""><i class="fab fa-facebook"></i></a>
+            <a href=""><i class="fas fa-envelope"></i></a>
+        </div>
+    </section>
+    <script>
+        const nav = document.querySelector('.nav');
+        document.querySelector('.toggle').onclick = function() {
+            this.classList.toggle('active');
+            nav.classList.toggle('active');
+        }
+    </script>
 </body>
 </html>
