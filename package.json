@@ -1,19 +1,14 @@
 {
-  "name": "netcraft-06-2021",
+  "name": "netcraft-students",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/d-stuff/netcraft-06-2021.git"
+    "dev": "sass src/main.scss:dist/main.css --watch",
+    "build": "sass src/main.scss dist/main.css",
+    "erez": "sass issue#19/src/student-container.scss:dist/student-container.css"
   },
   "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/d-stuff/netcraft-06-2021/issues"
-  },
-  "homepage": "https://github.com/d-stuff/netcraft-06-2021#readme"
+  "license": "ISC"
 }
+
