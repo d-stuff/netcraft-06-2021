@@ -9,7 +9,7 @@ export function getStudentsListComponent(studentsList){
         wrapper.innerHTML = "";
         studentsList
             .map(item => getStudentComponent(item).element)
-            .map(element => wrapper.appendChild(element))
+            .map(element => wrapper.appendChild(element));
     }
 
     return {
