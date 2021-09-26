@@ -1,85 +1,11 @@
 .nav {
-    position: fixed;
-    top: 50px;
-    right: 50px;
-    height: 50px;
-    width: 250px;
-    background-color: #2196f3;
-    transition: 0.5s;
-    z-index: 1000;
-    overflow: hidden;
-}
-
-.nav.active {
-    height: 350px;
-}
-
-.nav .toggle {
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    color: #fff;
-    padding: 0 20px;
-    font-size: 20px;
-    font-weight: 500;
-    cursor: pointer;
-}
-
-.nav .toggle::before {
-    content:'Menu';
-    margin-right: 10px;
-}
-
-.nav .toggle.active::before {
-    content: 'Close';
-    margin-right: 10px;
-}
-
-.nav .toggle span {
-    position: relative;
-    width: 20px;
-    height: 50px;
-}
-
-.nav .toggle span::before {
-    content: '';
-    position: absolute;
-    top: 20px;
-    left: 0;
-    width: 100%;
-    height: 2px;
-    background-color: #fff;
-    transition: 00.5s
-}
-
-.nav .toggle span::after {
-    content: '';
-    position: absolute;
-    bottom: 20px;
-    left: 0;
-    width: 100%;
-    height: 2px;
-    background-color: #fff;
-    transition: 00.5s
-}
-
-.nav .toggle.active span::before {
-    transform: rotate(225deg);
-    top: 24px;
-}
-
-.nav .toggle.active span::after {
-    transform: rotate(135deg);
-    bottom: 24px;
+    width: 20vw;
 }
 
 .nav ul {
-    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
     background: #111;
 }
 
@@ -88,13 +14,13 @@
 }
 
 .nav ul li a {
-    position: relative;
     text-decoration: none;
     display: block;
-    padding: 10px 20px;
-    height: 50px;
+    padding: 30px 0;
+    height: 96px;
     color: #fff;
-    font-size: 18px;
+    text-align: center;
+    font-size: 24px;
     transition: 1s;
 }
 
