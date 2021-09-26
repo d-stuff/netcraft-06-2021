@@ -4,7 +4,29 @@
   box-sizing: border-box;
   font-family: sans-serif;
   font-weight: 200;
-  color: rgb(88, 88, 88);
+  color: #585858;
+}
+
+.contact {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.languages {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.skills {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.animation {
+  position: absolute;
+  right: 160px;
+  bottom: -50px;
+  width: 350px;
 }
 
 .main-container {
@@ -55,12 +77,14 @@
   width: 450px;
   height: 1px;
   background-color: rgb(233, 233, 233);
+  margin: 10px 0;
 }
 
 .line-break-small {
   width: 350px;
   height: 1px;
   background-color: rgb(233, 233, 233);
+  margin: 5px 0;
 }
 
 .pink-letters {
@@ -81,7 +105,7 @@ h2 {
   font-size: 24px;
   font-weight: 600;
   color: rgb(48, 46, 46);
-  margin: 10px 0;
+  margin-bottom: 5px;
 }
 
 h4 {
@@ -199,3 +223,24 @@ h4 {
 .progress-line.mysql span::after {
   content: "75%";
 } */
+
+a {
+  text-decoration: none;
+  /* font-style: italic; */
+}
+
+a:hover {
+  text-decoration: none;
+  font-style: italic;
+  color: #c12259;
+  transition: 0.5s;
+  font-size: 17px;
+}
+
+#location {
+  margin-right: 10px;
+}
+
+i {
+  margin-right: 5px;
+}
