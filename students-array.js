@@ -1,4 +1,4 @@
-const students = [
+export const students = [
     {
         name: "Shaked Shaul",
         mail: "shukeds@gmail.com",
