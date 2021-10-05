@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "sass src/main.scss:dist/main.css --watch", 
+    "dev": "sass src/main.scss:dist/main.css --watch",
     "build": "sass src/main.scss dist/main.css"
+  
   },
   "repository": {
     "type": "git",
